@@ -36,8 +36,7 @@ if($current_session != session_id()){
         <link rel="stylesheet" href="./assets/custom/css/style.css">
     </head>
     <body>
-      <div data-role="page" id="app_1" style="background: rgb(228,228,228);
-background: linear-gradient(7deg, rgba(228,228,228,1) 0%, rgba(247,247,247,1) 35%, rgba(255,255,255,1) 100%);">
+      <div data-role="page" id="app_1" style="background: rgb(218, 218, 218);">
         <div class="bg-white">
           <div class="container text-left mb-3 pt-3 pb-4">
             <div class="row">
@@ -48,18 +47,30 @@ background: linear-gradient(7deg, rgba(228,228,228,1) 0%, rgba(247,247,247,1) 35
                 ภาพรวมการตอบ
               </div>
             </div>
-            <h3 class="mt-3 fw400">ส่วนที่ 1</h3>
-            <h5 class="">ข้อมูลส่วนตัว (1/7)</h5>
+            <div class="pt-4">
+              <div class="row">
+                <div class="col-4 col-sm-2">
+                  <img src="./img/boy.png" alt="" style="width: 100px;">
+                </div>
+                <div class="col-8">
+                  <h3 class="mt-3 fw400" style="color: rgb(7, 175, 136);">ส่วนที่ 1</h3>
+                  <h5 class="">ข้อมูลส่วนตัว (1/7)</h5>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-12 pt-4">
-              <div class="card mb-5">
+            <div class="col-12 pt-2">
+              <div class="card mb-5" style="border: none;">
                 <div class="card-body">
-                  <h5 class=" mb-4">อีเมล์แอดเดรส (ถ้ามี)</h5>
+                  <h5 class=" mb-4">1. อีเมล์แอดเดรส (ถ้ามี)</h5>
                   <div class="form-group">
-                    <input type="email" name="" value="" data-role="none" class="form-control" placeholder="กรอก E-mail address ถ้ามี เพื่อรับข่าวสารและการติดต่อภายหลัง">
+                    <input type="email" name="" value="" data-role="none" class="form-control" autofocus placeholder="กรอก E-mail address ถ้ามี เพื่อรับข่าวสารและการติดต่อภายหลัง">
+                    <div class="" style="font-size: 0.8em; padding-top: 15px;">
+                      ** คุณสามารถข้ามข้อนี้ได้ในกรณีที่ไม่ต้องการรับข่าวสารจากทางโครงการ
+                    </div>
                   </div>
                   <div class="form-group mt-4">
                     <div class="row">
@@ -78,7 +89,7 @@ background: linear-gradient(7deg, rgba(228,228,228,1) 0%, rgba(247,247,247,1) 35
         </div>
       </div>
 
-      <div data-role="page" id="app_2" style="background: rgb(228,228,228); background: linear-gradient(7deg, rgba(228,228,228,1) 0%, rgba(247,247,247,1) 35%, rgba(255,255,255,1) 100%);">
+      <div data-role="page" id="app_2" style="background: rgb(218, 218, 218);">
         <div class="bg-white">
           <div class="container text-left mb-3 pt-3 pb-4">
             <div class="row">
@@ -89,18 +100,303 @@ background: linear-gradient(7deg, rgba(228,228,228,1) 0%, rgba(247,247,247,1) 35
                 ภาพรวมการตอบ
               </div>
             </div>
-            <h3 class="mt-3 fw400">ส่วนที่ 1</h3>
-            <h5 class="">ข้อมูลส่วนตัว (2/7)</h5>
+            <div class="pt-4">
+              <div class="row">
+                <div class="col-4 col-sm-2">
+                  <img src="./img/boy.png" alt="" style="width: 100px;">
+                </div>
+                <div class="col-8">
+                  <h3 class="mt-3 fw400" style="color: rgb(7, 175, 136);">ส่วนที่ 1</h3>
+                  <h5 class="">ข้อมูลส่วนตัว (2/7)</h5>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-12 pt-4">
-              <div class="card">
+            <div class="col-12 pt-2">
+              <div class="card" style="border: none;">
                 <div class="card-body">
-                  <h5 class="mb-4">เพศ</h5>
+                  <h5 class="mb-4">2. เพศ</h5>
                   <div class="form-group">
-                    <input type="email" name="" value="" data-role="none" class="form-control" placeholder="กรอก E-mail address ถ้ามี เพื่อรับข่าวสารและการติดต่อภายหลัง">
+                    <div class="row">
+                      <div class="col-6 text-right pl-0">
+                        <button type="button" name="button" class="btn btn-outline-secondary" data-role="none" style="width: 130px;">
+                          <div class="">
+                            <img src="img/barista.png" alt="" class="img-fluid">
+                          </div>
+                          <div class="text-center">
+                            ชาย
+                          </div>
+                        </button>
+                      </div>
+                      <div class="col-6">
+                        <div class="col-6 pl-1 pr-0">
+                          <button type="button" name="button" class="btn btn-outline-secondary" data-role="none" style="width: 130px;">
+                            <div class="">
+                              <img src="img/chinese.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="text-center">
+                              หญิง
+                            </div>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group mt-5 pt-3">
+                    <div class="row">
+                      <div class="col-6">
+                        <button type="button" name="button" class="btn btn-outline-primary" data-role="none" onclick="sliderPrev()">ก่อนหน้า</button>
+                      </div>
+                      <div class="col-6 text-right">
+                        <button type="button" name="button" class="btn btn-outline-primary" data-role="none" onclick="sliderNext()">ถัดไป</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div data-role="page" id="app_3" style="background: rgb(218, 218, 218);">
+        <div class="bg-white">
+          <div class="container text-left mb-3 pt-3 pb-4">
+            <div class="row">
+              <div class="col-6" onclick="window.location = './'" style="cursor: pointer;">
+                <i class="fas fa-chevron-left"></i> หน้าแรก
+              </div>
+              <div class="col-6 text-right">
+                ภาพรวมการตอบ
+              </div>
+            </div>
+            <div class="pt-4">
+              <div class="row">
+                <div class="col-4 col-sm-2">
+                  <img src="./img/boy.png" alt="" style="width: 100px;">
+                </div>
+                <div class="col-8">
+                  <h3 class="mt-3 fw400" style="color: rgb(7, 175, 136);">ส่วนที่ 1</h3>
+                  <h5 class="">ข้อมูลส่วนตัว (3/7)</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 pt-2">
+              <div class="card" style="border: none;">
+                <div class="card-body">
+                  <h5 class=" mb-4">3. อายุ</h5>
+                  <div class="form-group">
+                    <select class="form-control" name="txtAge" id="txtAge" data-role="none">
+                      <option value="">--- เลือกอายุ ---</option>
+                      <?php
+                      for ($i=10; $i < 100; $i++) {
+                        // code...
+                        ?>
+                        <option value="<?php echo $i; ?>"><?php echo $i; ?></option>
+                        <?php
+                      }
+                      ?>
+                    </select>
+                  </div>
+                  <div class="form-group mt-5 pt-3">
+                    <div class="row">
+                      <div class="col-6">
+                        <button type="button" name="button" class="btn btn-outline-primary" data-role="none" onclick="sliderPrev()">ก่อนหน้า</button>
+                      </div>
+                      <div class="col-6 text-right">
+                        <button type="button" name="button" class="btn btn-outline-primary" data-role="none" onclick="sliderNext()">ถัดไป</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div data-role="page" id="app_4" style="background: rgb(218, 218, 218);">
+        <div class="bg-white">
+          <div class="container text-left mb-3 pt-3 pb-4">
+            <div class="row">
+              <div class="col-6" onclick="window.location = './'" style="cursor: pointer;">
+                <i class="fas fa-chevron-left"></i> หน้าแรก
+              </div>
+              <div class="col-6 text-right">
+                ภาพรวมการตอบ
+              </div>
+            </div>
+            <div class="pt-4">
+              <div class="row">
+                <div class="col-4 col-sm-2">
+                  <img src="./img/boy.png" alt="" style="width: 100px;">
+                </div>
+                <div class="col-8">
+                  <h3 class="mt-3 fw400" style="color: rgb(7, 175, 136);">ส่วนที่ 1</h3>
+                  <h5 class="">ข้อมูลส่วนตัว (4/7)</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 pt-2">
+              <div class="card" style="border: none;">
+                <div class="card-body">
+                  <h5 class=" mb-4">4. ที่อยู่ปัจจุบัน</h5>
+                  <div class="form-group">
+                    <select class="form-control" name="txtAge" id="txtAge" data-role="none">
+                      <option value="">--- เลือกจังหวัด ---</option>
+                      <?php
+                      for ($i=10; $i < 100; $i++) {
+                        // code...
+                        ?>
+                        <option value="<?php echo $i; ?>"><?php echo $i; ?></option>
+                        <?php
+                      }
+                      ?>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <select class="form-control" name="txtAge" id="txtAge" data-role="none">
+                      <option value="">--- เลือกอำเภอ ---</option>
+                      <?php
+                      for ($i=10; $i < 100; $i++) {
+                        // code...
+                        ?>
+                        <option value="<?php echo $i; ?>"><?php echo $i; ?></option>
+                        <?php
+                      }
+                      ?>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <select class="form-control" name="txtAge" id="txtAge" data-role="none">
+                      <option value="">--- เลือกตำบล ---</option>
+                      <?php
+                      for ($i=10; $i < 100; $i++) {
+                        // code...
+                        ?>
+                        <option value="<?php echo $i; ?>"><?php echo $i; ?></option>
+                        <?php
+                      }
+                      ?>
+                    </select>
+                  </div>
+                  <div class="form-group mt-5 pt-3">
+                    <div class="row">
+                      <div class="col-6">
+                        <button type="button" name="button" class="btn btn-outline-primary" data-role="none" onclick="sliderPrev()">ก่อนหน้า</button>
+                      </div>
+                      <div class="col-6 text-right">
+                        <button type="button" name="button" class="btn btn-outline-primary" data-role="none" onclick="sliderNext()">ถัดไป</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div data-role="page" id="app_5" style="background: rgb(218, 218, 218);">
+        <div class="bg-white">
+          <div class="container text-left mb-3 pt-3 pb-4">
+            <div class="row">
+              <div class="col-6" onclick="window.location = './'" style="cursor: pointer;">
+                <i class="fas fa-chevron-left"></i> หน้าแรก
+              </div>
+              <div class="col-6 text-right">
+                ภาพรวมการตอบ
+              </div>
+            </div>
+            <div class="pt-4">
+              <div class="row">
+                <div class="col-4 col-sm-2">
+                  <img src="./img/boy.png" alt="" style="width: 100px;">
+                </div>
+                <div class="col-8">
+                  <h3 class="mt-3 fw400" style="color: rgb(7, 175, 136);">ส่วนที่ 1</h3>
+                  <h5 class="">ข้อมูลส่วนตัว (5/7)</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 pt-2">
+              <div class="card" style="border: none;">
+                <div class="card-body">
+                  <h5 class="mb-4">5. ระดับการศึกษา</h5>
+                  <div class="form-group"  id="radiogroup-status">
+                      <div class="selectgroup selectgroup-pills">
+                        <div class="row">
+                          <div class="col-2 col-sm-1">
+                              <label class="selectgroup-item">
+                                  <input type="radio" name="icon-input-status" value="1" class="selectgroup-input" data-role="none">
+                                  <span class="selectgroup-button selectgroup-button-icon btn-icon" style="width: 25px; height: 38px;"><i class="fas fa-check"></i></span>
+                              </label>
+                          </div>
+                          <div class="col-10 col-sm-5" style="padding-top: 12px;">ไม่ได้รับการศึกษา</div>
+
+                          <div class="col-2 col-sm-1">
+                              <label class="selectgroup-item">
+                                  <input type="radio" name="icon-input-status" value="2" class="selectgroup-input"  data-role="none">
+                                  <span class="selectgroup-button selectgroup-button-icon btn-icon" style="width: 25px; height: 38px;"><i class="fas fa-check"></i></span>
+                              </label>
+                          </div>
+                          <div class="col-10 col-sm-5" style="padding-top: 12px;">ประถมศึกษา</div>
+
+                          <div class="col-2 col-sm-1">
+                              <label class="selectgroup-item">
+                                  <input type="radio" name="icon-input-status" value="3" class="selectgroup-input"  data-role="none">
+                                  <span class="selectgroup-button selectgroup-button-icon btn-icon" style="width: 25px; height: 38px;"><i class="fas fa-check"></i></span>
+                              </label>
+                          </div>
+                          <div class="col-10 col-sm-5" style="padding-top: 12px;">มัธยมศึกษา</div>
+
+                          <div class="col-2 col-sm-1">
+                              <label class="selectgroup-item">
+                                  <input type="radio" name="icon-input-status" value="4" class="selectgroup-input"  data-role="none">
+                                  <span class="selectgroup-button selectgroup-button-icon btn-icon" style="width: 25px; height: 38px;"><i class="fas fa-check"></i></span>
+                              </label>
+                          </div>
+                          <div class="col-10 col-sm-5" style="padding-top: 12px;">อนุปริญญา/ปวส/ปวช</div>
+
+                          <div class="col-2 col-sm-1">
+                              <label class="selectgroup-item">
+                                  <input type="radio" name="icon-input-status" value="5" class="selectgroup-input"  data-role="none">
+                                  <span class="selectgroup-button selectgroup-button-icon btn-icon" style="width: 25px; height: 38px;"><i class="fas fa-check"></i></span>
+                              </label>
+                          </div>
+                          <div class="col-10 col-sm-5" style="padding-top: 12px;">ปริญญาตรีหรือเทียบเท่า</div>
+
+                          <div class="col-2 col-sm-1">
+                              <label class="selectgroup-item">
+                                  <input type="radio" name="icon-input-status" value="6" class="selectgroup-input"  data-role="none">
+                                  <span class="selectgroup-button selectgroup-button-icon btn-icon" style="width: 25px; height: 38px;"><i class="fas fa-check"></i></span>
+                              </label>
+                          </div>
+                          <div class="col-10 col-sm-5" style="padding-top: 12px;">สูงกกว่าปริญญาตรี</div>
+                          <div class="col-2 col-sm-1">
+                              <label class="selectgroup-item">
+                                  <input type="radio" name="icon-input-status" value="99" class="selectgroup-input"  data-role="none">
+                                  <span class="selectgroup-button selectgroup-button-icon btn-icon" style="width: 25px; height: 38px;"><i class="fas fa-check"></i></span>
+                              </label>
+                          </div>
+                          <div class="col-10 col-sm-5" style="padding-top: 12px;">อื่น ๆ</div>
+                        </div>
+                      </div>
                   </div>
                   <div class="form-group mt-4">
                     <div class="row">
@@ -119,7 +415,7 @@ background: linear-gradient(7deg, rgba(228,228,228,1) 0%, rgba(247,247,247,1) 35
         </div>
       </div>
 
-      <div data-role="page" id="app_3" style="background: rgb(228,228,228); background: linear-gradient(7deg, rgba(228,228,228,1) 0%, rgba(247,247,247,1) 35%, rgba(255,255,255,1) 100%);">
+      <div data-role="page" id="app_6" style="background: rgb(218, 218, 218);">
         <div class="bg-white">
           <div class="container text-left mb-3 pt-3 pb-4">
             <div class="row">
@@ -130,18 +426,102 @@ background: linear-gradient(7deg, rgba(228,228,228,1) 0%, rgba(247,247,247,1) 35
                 ภาพรวมการตอบ
               </div>
             </div>
-            <h3 class="mt-3 fw400">ส่วนที่ 1</h3>
-            <h5 class="">ข้อมูลส่วนตัว (3/7)</h5>
+            <div class="pt-4">
+              <div class="row">
+                <div class="col-4 col-sm-2">
+                  <img src="./img/boy.png" alt="" style="width: 100px;">
+                </div>
+                <div class="col-8">
+                  <h3 class="mt-3 fw400" style="color: rgb(7, 175, 136);">ส่วนที่ 1</h3>
+                  <h5 class="">ข้อมูลส่วนตัว (6/7)</h5>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-12 pt-4">
-              <div class="card">
+            <div class="col-12 pt-2">
+              <div class="card" style="border: none;">
                 <div class="card-body">
-                  <h5 class=" mb-4">อายุ</h5>
-                  <div class="form-group">
-                    <input type="email" name="" value="" data-role="none" class="form-control" placeholder="กรอก E-mail address ถ้ามี เพื่อรับข่าวสารและการติดต่อภายหลัง">
+                  <h5 class="mb-4">6. อาชีพ</h5>
+                  <div class="form-group"  id="radiogroup-status">
+                      <div class="selectgroup selectgroup-pills">
+                        <div class="row">
+                          <div class="col-2 col-sm-1">
+                              <label class="selectgroup-item">
+                                  <input type="radio" name="icon-input-status" value="1" class="selectgroup-input" data-role="none">
+                                  <span class="selectgroup-button selectgroup-button-icon btn-icon" style="width: 25px; height: 38px;"><i class="fas fa-check"></i></span>
+                              </label>
+                          </div>
+                          <div class="col-10 col-sm-5" style="padding-top: 12px;">เกษตรกรรม/ประมง</div>
+
+                          <div class="col-2 col-sm-1">
+                              <label class="selectgroup-item">
+                                  <input type="radio" name="icon-input-status" value="2" class="selectgroup-input"  data-role="none">
+                                  <span class="selectgroup-button selectgroup-button-icon btn-icon" style="width: 25px; height: 38px;"><i class="fas fa-check"></i></span>
+                              </label>
+                          </div>
+                          <div class="col-10 col-sm-5" style="padding-top: 12px;">ค้าขาย/เจ้าของกิจการ</div>
+
+                          <div class="col-2 col-sm-1">
+                              <label class="selectgroup-item">
+                                  <input type="radio" name="icon-input-status" value="3" class="selectgroup-input"  data-role="none">
+                                  <span class="selectgroup-button selectgroup-button-icon btn-icon" style="width: 25px; height: 38px;"><i class="fas fa-check"></i></span>
+                              </label>
+                          </div>
+                          <div class="col-10 col-sm-5" style="padding-top: 12px;">ผู้ใช้แรงงาน/รับจ้างทั่วไป</div>
+
+                          <div class="col-2 col-sm-1">
+                              <label class="selectgroup-item">
+                                  <input type="radio" name="icon-input-status" value="4" class="selectgroup-input"  data-role="none">
+                                  <span class="selectgroup-button selectgroup-button-icon btn-icon" style="width: 25px; height: 38px;"><i class="fas fa-check"></i></span>
+                              </label>
+                          </div>
+                          <div class="col-10 col-sm-5" style="padding-top: 12px;">พนักงานบริษัทเอกชน</div>
+
+                          <div class="col-2 col-sm-1">
+                              <label class="selectgroup-item">
+                                  <input type="radio" name="icon-input-status" value="5" class="selectgroup-input"  data-role="none">
+                                  <span class="selectgroup-button selectgroup-button-icon btn-icon" style="width: 25px; height: 38px;"><i class="fas fa-check"></i></span>
+                              </label>
+                          </div>
+                          <div class="col-10 col-sm-5" style="padding-top: 12px;">พ่อบ้าน/แม่บ้าน</div>
+
+                          <div class="col-2 col-sm-1">
+                              <label class="selectgroup-item">
+                                  <input type="radio" name="icon-input-status" value="6" class="selectgroup-input"  data-role="none">
+                                  <span class="selectgroup-button selectgroup-button-icon btn-icon" style="width: 25px; height: 38px;"><i class="fas fa-check"></i></span>
+                              </label>
+                          </div>
+                          <div class="col-10 col-sm-5" style="padding-top: 12px;">เกษียณ</div>
+
+                          <div class="col-2 col-sm-1">
+                              <label class="selectgroup-item">
+                                  <input type="radio" name="icon-input-status" value="7" class="selectgroup-input"  data-role="none">
+                                  <span class="selectgroup-button selectgroup-button-icon btn-icon" style="width: 25px; height: 38px;"><i class="fas fa-check"></i></span>
+                              </label>
+                          </div>
+                          <div class="col-10 col-sm-5" style="padding-top: 12px;">นักเรียน/นักศึกษา</div>
+
+                          <div class="col-2 col-sm-1">
+                              <label class="selectgroup-item">
+                                  <input type="radio" name="icon-input-status" value="8" class="selectgroup-input"  data-role="none">
+                                  <span class="selectgroup-button selectgroup-button-icon btn-icon" style="width: 25px; height: 38px;"><i class="fas fa-check"></i></span>
+                              </label>
+                          </div>
+                          <div class="col-10 col-sm-5" style="padding-top: 12px;">อยู่ระหว่างหางาน</div>
+
+                          <div class="col-2 col-sm-1">
+                              <label class="selectgroup-item">
+                                  <input type="radio" name="icon-input-status" value="99" class="selectgroup-input"  data-role="none">
+                                  <span class="selectgroup-button selectgroup-button-icon btn-icon" style="width: 25px; height: 38px;"><i class="fas fa-check"></i></span>
+                              </label>
+                          </div>
+                          <div class="col-10 col-sm-5" style="padding-top: 12px;">อื่น ๆ</div>
+
+                        </div>
+                      </div>
                   </div>
                   <div class="form-group mt-4">
                     <div class="row">
@@ -160,7 +540,7 @@ background: linear-gradient(7deg, rgba(228,228,228,1) 0%, rgba(247,247,247,1) 35
         </div>
       </div>
 
-      <div data-role="page" id="app_4" style="background: rgb(228,228,228); background: linear-gradient(7deg, rgba(228,228,228,1) 0%, rgba(247,247,247,1) 35%, rgba(255,255,255,1) 100%);">
+      <div data-role="page" id="app_7" style="background: rgb(218, 218, 218);">
         <div class="bg-white">
           <div class="container text-left mb-3 pt-3 pb-4">
             <div class="row">
@@ -171,141 +551,61 @@ background: linear-gradient(7deg, rgba(228,228,228,1) 0%, rgba(247,247,247,1) 35
                 ภาพรวมการตอบ
               </div>
             </div>
-            <h3 class="mt-3 fw400">ส่วนที่ 1</h3>
-            <h5 class="">ข้อมูลส่วนตัว (4/7)</h5>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-12 pt-4">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class=" mb-4">ที่อยู่ปัจจุบัน</h5>
-                  <div class="form-group">
-                    <input type="email" name="" value="" data-role="none" class="form-control" placeholder="กรอก E-mail address ถ้ามี เพื่อรับข่าวสารและการติดต่อภายหลัง">
-                  </div>
-                  <div class="form-group mt-4">
-                    <div class="row">
-                      <div class="col-6">
-                        <button type="button" name="button" class="btn btn-outline-primary" data-role="none" onclick="sliderPrev()">ก่อนหน้า</button>
-                      </div>
-                      <div class="col-6 text-right">
-                        <button type="button" name="button" class="btn btn-outline-primary" data-role="none" onclick="sliderNext()">ถัดไป</button>
-                      </div>
-                    </div>
-                  </div>
+            <div class="pt-4">
+              <div class="row">
+                <div class="col-4 col-sm-2">
+                  <img src="./img/boy.png" alt="" style="width: 100px;">
+                </div>
+                <div class="col-8">
+                  <h3 class="mt-3 fw400" style="color: rgb(7, 175, 136);">ส่วนที่ 1</h3>
+                  <h5 class="">ข้อมูลส่วนตัว (7/7)</h5>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <div data-role="page" id="app_5" style="background: rgb(228,228,228); background: linear-gradient(7deg, rgba(228,228,228,1) 0%, rgba(247,247,247,1) 35%, rgba(255,255,255,1) 100%);">
-        <div class="bg-white">
-          <div class="container text-left mb-3 pt-3 pb-4">
-            <div class="row">
-              <div class="col-6" onclick="window.location = './'" style="cursor: pointer;">
-                <i class="fas fa-chevron-left"></i> หน้าแรก
-              </div>
-              <div class="col-6 text-right">
-                ภาพรวมการตอบ
-              </div>
-            </div>
-            <h3 class="mt-3 fw400">ส่วนที่ 1</h3>
-            <h5 class="">ข้อมูลส่วนตัว (5/7)</h5>
-          </div>
-        </div>
         <div class="container">
           <div class="row">
-            <div class="col-12 pt-4">
-              <div class="card">
+            <div class="col-12 pt-2">
+              <div class="card" style="border: none;">
                 <div class="card-body">
-                  <h5 class="mb-4">ระดับการศึกษา</h5>
-                  <div class="form-group">
-                    <input type="email" name="" value="" data-role="none" class="form-control" placeholder="กรอก E-mail address ถ้ามี เพื่อรับข่าวสารและการติดต่อภายหลัง">
-                  </div>
-                  <div class="form-group mt-4">
-                    <div class="row">
-                      <div class="col-6">
-                        <button type="button" name="button" class="btn btn-outline-primary" data-role="none" onclick="sliderPrev()">ก่อนหน้า</button>
-                      </div>
-                      <div class="col-6 text-right">
-                        <button type="button" name="button" class="btn btn-outline-primary" data-role="none" onclick="sliderNext()">ถัดไป</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+                  <h5 class="mb-4">7. รายได้ต่อเดือน</h5>
+                  <div class="form-group"  id="radiogroup-status">
+                      <div class="selectgroup selectgroup-pills">
+                        <div class="row">
+                          <div class="col-2 col-sm-1">
+                              <label class="selectgroup-item">
+                                  <input type="radio" name="icon-input-status" value="1" class="selectgroup-input" data-role="none">
+                                  <span class="selectgroup-button selectgroup-button-icon btn-icon" style="width: 25px; height: 38px;"><i class="fas fa-check"></i></span>
+                              </label>
+                          </div>
+                          <div class="col-10 col-sm-5" style="padding-top: 12px;">น้อยกว่า 5,000 บาท</div>
 
-      <div data-role="page" id="app_6" style="background: rgb(228,228,228); background: linear-gradient(7deg, rgba(228,228,228,1) 0%, rgba(247,247,247,1) 35%, rgba(255,255,255,1) 100%);">
-        <div class="bg-white">
-          <div class="container text-left mb-3 pt-3 pb-4">
-            <div class="row">
-              <div class="col-6" onclick="window.location = './'" style="cursor: pointer;">
-                <i class="fas fa-chevron-left"></i> หน้าแรก
-              </div>
-              <div class="col-6 text-right">
-                ภาพรวมการตอบ
-              </div>
-            </div>
-            <h3 class="mt-3 fw400">ส่วนที่ 1</h3>
-            <h5 class="">ข้อมูลส่วนตัว (6/7)</h5>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-12 pt-4">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="mb-4">อาชีพ</h5>
-                  <div class="form-group">
-                    <input type="email" name="" value="" data-role="none" class="form-control" placeholder="กรอก E-mail address ถ้ามี เพื่อรับข่าวสารและการติดต่อภายหลัง">
-                  </div>
-                  <div class="form-group mt-4">
-                    <div class="row">
-                      <div class="col-6">
-                        <button type="button" name="button" class="btn btn-outline-primary" data-role="none" onclick="sliderPrev()">ก่อนหน้า</button>
-                      </div>
-                      <div class="col-6 text-right">
-                        <button type="button" name="button" class="btn btn-outline-primary" data-role="none" onclick="sliderNext()">ถัดไป</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+                          <div class="col-2 col-sm-1">
+                              <label class="selectgroup-item">
+                                  <input type="radio" name="icon-input-status" value="2" class="selectgroup-input"  data-role="none">
+                                  <span class="selectgroup-button selectgroup-button-icon btn-icon" style="width: 25px; height: 38px;"><i class="fas fa-check"></i></span>
+                              </label>
+                          </div>
+                          <div class="col-10 col-sm-5" style="padding-top: 12px;">5,000 – 10,000 บาท</div>
 
-      <div data-role="page" id="app_7" style="background: rgb(228,228,228); background: linear-gradient(7deg, rgba(228,228,228,1) 0%, rgba(247,247,247,1) 35%, rgba(255,255,255,1) 100%);">
-        <div class="bg-white">
-          <div class="container text-left mb-3 pt-3 pb-4">
-            <div class="row">
-              <div class="col-6" onclick="window.location = './'" style="cursor: pointer;">
-                <i class="fas fa-chevron-left"></i> หน้าแรก
-              </div>
-              <div class="col-6 text-right">
-                ภาพรวมการตอบ
-              </div>
-            </div>
-            <h3 class="mt-3 fw400">ส่วนที่ 1</h3>
-            <h5 class="">ข้อมูลส่วนตัว (7/7)</h5>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-12 pt-4">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="mb-4">รายได้</h5>
-                  <div class="form-group">
-                    <input type="email" name="" value="" data-role="none" class="form-control" placeholder="กรอก E-mail address ถ้ามี เพื่อรับข่าวสารและการติดต่อภายหลัง">
+                          <div class="col-2 col-sm-1">
+                              <label class="selectgroup-item">
+                                  <input type="radio" name="icon-input-status" value="3" class="selectgroup-input"  data-role="none">
+                                  <span class="selectgroup-button selectgroup-button-icon btn-icon" style="width: 25px; height: 38px;"><i class="fas fa-check"></i></span>
+                              </label>
+                          </div>
+                          <div class="col-10 col-sm-5" style="padding-top: 12px;">10,001 – 20,000 บาท</div>
+
+                          <div class="col-2 col-sm-1">
+                              <label class="selectgroup-item">
+                                  <input type="radio" name="icon-input-status" value="4" class="selectgroup-input"  data-role="none">
+                                  <span class="selectgroup-button selectgroup-button-icon btn-icon" style="width: 25px; height: 38px;"><i class="fas fa-check"></i></span>
+                              </label>
+                          </div>
+                          <div class="col-10 col-sm-5" style="padding-top: 12px;">มากกว่า 20,000 บาท</div>
+                        </div>
+                      </div>
                   </div>
                   <div class="form-group mt-4">
                     <div class="row">
