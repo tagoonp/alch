@@ -42,15 +42,15 @@ $round = 1;
         <div class="bg-white">
           <div class="container text-left mb-3 pt-3 pb-4">
             <div class="row">
-              <div class="col-6" onclick="sliderNextPart(2)" style="cursor: pointer;">
-                <i class="fas fa-chevron-left"></i> ส่วนที่ 2
+              <div class="col-6" onclick="sliderNextPart(3)" style="cursor: pointer;">
+                <i class="fas fa-chevron-left"></i> ส่วนที่ 3
               </div>
               <div class="col-6 text-right">
                 ภาพรวมการตอบ
               </div>
             </div>
-            <h3 class="mt-3 fw400 text-success">ส่วนที่ 3</h3>
-            <h5 class="">อัตราการตอบสนองต่อการรู้จำผลิตภัณฑ์ (1/3)</h5>
+            <h3 class="mt-3 fw400">ส่วนที่ 3.1</h3>
+            <h5 class="">ทดสอบอัตราการตอบสนองต่อการรู้จำผลิตภัณฑ์ (1/10)</h5>
           </div>
         </div>
         <div class="container">
@@ -58,18 +58,15 @@ $round = 1;
             <div class="col-12 pt-2">
               <div class="card mb-5">
                 <div class="card-body">
-                  <h3 class="text-center mb-4 pt-3">ชุดที่ 1</h3>
+                  <h4 class="text-center mb-4 pt-3">ดาวน์โหลดทรัพยากรชุดที่ 1 สำเร็จ</h4>
                   <div class="form-group text-center">
-                    <button type="button" name="button" class="btn btn-lg btn-outline-success" data-role="none" onclick="window.location='assesment_part3_1.php?sid=<?php echo $current_session; ?>'">เริ่มทำแบบทดสอบ</button>
+                    <button type="button" name="button" class="btn btn-lg btn-success" data-role="none"  onclick="sliderNext()">คลิ๊กที่นี่เพื่อเริ่ม</button>
                     <div class="pt-3 text-muted">ท่านจะไม่สามารถไปส่วนถัดไปได้จนกว่าจะทำเริ่มทำแบบทดสอบชุดที่ 1 เสร็จ</div>
                   </div>
                   <div class="form-group mt-4">
                     <div class="row">
-                      <div class="col-6">
-
-                      </div>
-                      <div class="col-6 text-right">
-                        <button type="button" name="button" class="btn btn-outline-primary" data-role="none" onclick="sliderNext()" disabled id="btnNext1">ถัดไป</button>
+                      <div class="col-12 text-center">
+                        <a href="#" class="text-primary" data-role="none" onclick="sliderNextPart(3)">- กลับก่อนหน้า -</a>
                       </div>
                     </div>
                   </div>
@@ -84,15 +81,15 @@ $round = 1;
         <div class="bg-white">
           <div class="container text-left mb-3 pt-3 pb-4">
             <div class="row">
-              <div class="col-6" onclick="sliderNextPart(2)" style="cursor: pointer;">
-                <i class="fas fa-chevron-left"></i> ส่วนที่ 2
+              <div class="col-6" onclick="sliderNextPart(3)" style="cursor: pointer;">
+                <i class="fas fa-chevron-left"></i> ส่วนที่ 3
               </div>
               <div class="col-6 text-right">
                 ภาพรวมการตอบ
               </div>
             </div>
-            <h3 class="mt-3 fw400">ส่วนที่ 3</h3>
-            <h5 class="">อัตราการตอบสนองต่อการรู้จำผลิตภัณฑ์ (2/3)</h5>
+            <h3 class="mt-3 fw400">ส่วนที่ 3 <small class="text-muted">(ชุดที่ 2)</small> </h3>
+            <h5 class="">ทดสอบอัตราการตอบสนองต่อการรู้จำผลิตภัณฑ์ (4/10)</h5>
           </div>
         </div>
         <div class="container">
@@ -100,18 +97,24 @@ $round = 1;
             <div class="col-12 pt-2">
               <div class="card mb-5">
                 <div class="card-body">
-                  <h3 class="text-center mb-4 pt-3">ชุดที่ 2</h3>
-                  <div class="form-group text-center">
-                    <button type="button" name="button" class="btn btn-lg btn-outline-success" data-role="none">เริ่มทำแบบทดสอบ</button>
-                    <div class="pt-3 text-muted">ท่านจะไม่สามารถไปส่วนถัดไปได้จนกว่าจะทำเริ่มทำแบบทดสอบชุดที่ 2 เสร็จ</div>
-                  </div>
-                  <div class="form-group mt-4">
+                  <div class="form-group mt-2">
                     <div class="row">
-                      <div class="col-6">
-
+                      <div class="col-12 text-center">
+                        นับถอยหลัง <span class="c" id="10" style="font-weight: 400; color: rgb(255, 0, 61); font-size: 1.5em;"></span> วินาที
                       </div>
-                      <div class="col-6 text-right">
-                        <button type="button" name="button" class="btn btn-outline-primary" data-role="none" onclick="sliderNext()" disabled>ถัดไป</button>
+                    </div>
+                  </div>
+                  <div class="form-group text-center">
+                    <img src="img/symbol-3.png" alt="" class="img-fluid">
+                    <div class="pt-3 text-muted">ภาพนี้ทำให้ท่านนึกถึงเครื่องดืมแอลกอฮอล์หรือไม่</div>
+                  </div>
+                  <div class="form-group">
+                    <div class="row">
+                      <div class="col-6 pr-1">
+                        <button type="button" name="button" class="btn btn-outline-secondary btn-block" data-role="none"><i class="fas fa-times text-danger fa-3x"></i><br>ไม่ใช่</button>
+                      </div>
+                      <div class="col-6 pl-1">
+                        <button type="button" name="button" class="btn btn-outline-secondary btn-block" data-role="none"><i class="fas fa-check text-success fa-3x"></i><br>ใช่</button>
                       </div>
                     </div>
                   </div>
@@ -183,8 +186,31 @@ $round = 1;
         var init_app = 1
 
         $(document).ready(function(){
-          console.log(current_session);
+            console.log(current_session);
             preload.hide()
+
+            function c(){
+              var n=$('.c').attr('id');
+              var c=n;
+              $('.c').text(c);
+              setInterval(function(){
+                  c--;
+                  if(c>=0){
+                      $('.c').text(c);
+                  }
+                  if(c==0){
+                      $('.c').text(n);
+                  }
+              },1000);
+          }
+
+          // Start
+          c();
+
+          // Loop
+          setInterval(function(){
+              c();
+          },5000);
         })
 
         $(function(){

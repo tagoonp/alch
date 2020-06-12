@@ -36,8 +36,7 @@ if($current_session != session_id()){
         <link rel="stylesheet" href="./assets/custom/css/style.css">
     </head>
     <body>
-      <div data-role="page" id="app_1" style="background: rgb(228,228,228);
-background: linear-gradient(7deg, rgba(228,228,228,1) 0%, rgba(247,247,247,1) 35%, rgba(255,255,255,1) 100%);">
+      <div data-role="page" id="app_1"  style="background: rgb(218, 218, 218);">
         <div class="bg-white">
           <div class="container text-left mb-3 pt-3 pb-4">
             <div class="row">
@@ -49,17 +48,17 @@ background: linear-gradient(7deg, rgba(228,228,228,1) 0%, rgba(247,247,247,1) 35
               </div>
             </div>
             <h3 class="mt-3 fw400  text-success">ส่วนที่ 4</h3>
-            <h5 class=""> ข้อคำถามและความคิดเห็นอื่น ๆ (1/6)</h5>
+            <h5 class="">ข้อคำถามและความคิดเห็นอื่น ๆ (1/5)</h5>
           </div>
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-12 pt-4">
+            <div class="col-12 pt-2">
               <div class="card mb-5">
                 <div class="card-body">
                   <div class="row">
                     <div class="col-12 col-md-8">
-                      <h5 class="text-left mb-4">ท่านคิดว่าผลิตภัณฑ์อื่น ๆ ที่ไม่ใช่สุราของผู้ผลิตผลิตภัณฑ์ที่เกี่ยวข้องกับสุรา/แอลกอฮอล์ มีผลต่อการส่งเสริมการขายหรือผลประโยชน์เชิงพานิชต่อผลิตภัณฑ์ที่สุรา/แอลกอฮอล์หรือไม่</h5>
+                      <h5 class="text-left mb-4">1. ท่านคิดว่าผลิตภัณฑ์อื่น ๆ ที่ไม่ใช่สุราของผู้ผลิตผลิตภัณฑ์ที่เกี่ยวข้องกับสุรา/แอลกอฮอล์ มีผลต่อการส่งเสริมการขายหรือผลประโยชน์เชิงพานิชต่อผลิตภัณฑ์ที่สุรา/แอลกอฮอล์หรือไม่</h5>
                     </div>
                     <div class="col-12 col-md-4">
                       <div class="form-group">
@@ -93,19 +92,27 @@ background: linear-gradient(7deg, rgba(228,228,228,1) 0%, rgba(247,247,247,1) 35
         </div>
       </div>
 
-      <div data-role="page" id="app_2" style="background: rgb(228,228,228); background: linear-gradient(7deg, rgba(228,228,228,1) 0%, rgba(247,247,247,1) 35%, rgba(255,255,255,1) 100%);">
+      <div data-role="page" id="app_2"  style="background: rgb(218, 218, 218);">
         <div class="bg-white">
-          <div class="container text-left mb-3 pt-5 pb-4">
-            <h3 class=" fw400  text-success">ส่วนที่ 4</h3>
-            <h5 class=""> ข้อคำถามและความคิดเห็นอื่น ๆ (2/6)</h5>
+          <div class="container text-left mb-3 pt-3 pb-4">
+            <div class="row">
+              <div class="col-6" onclick="sliderNextPart(3)" style="cursor: pointer;">
+                <i class="fas fa-chevron-left"></i> ส่วนที่ 3
+              </div>
+              <div class="col-6 text-right">
+                ภาพรวมการตอบ
+              </div>
+            </div>
+            <h3 class="mt-3 fw400  text-success">ส่วนที่ 4</h3>
+            <h5 class=""> ข้อคำถามและความคิดเห็นอื่น ๆ (2/5)</h5>
           </div>
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-12 pt-4">
+            <div class="col-12 pt-2">
               <div class="card">
                 <div class="card-body">
-                  <h5 class="mb-4">ท่านคิดว่าสื่อ โฆษณา ผลิตภัณฑ์อื่น ๆ ที่ไม่ใช่สุราของผู้ผลิตผลิตภัณฑ์ที่เกี่ยวข้องกับสุรา/แอลกอฮอล์ มีผลต่อการเลือกซื้อ หรือทำให้ท่านเลือกซื้อผลิตภัณฑ์ที่สุรา/แอลกอฮอล์เพิ่มขึ้นหรือไม่</h5>
+                  <h5 class="mb-4">2. ท่านคิดว่าสื่อ/โฆษณา/ผลิตภัณฑ์อื่น ๆ ที่ไม่ใช่สุราแต่เป็นผู้ผลิตเดียวกันกับเจ้าของผลิตภัณฑ์ที่เกี่ยวข้องกับสุรา/แอลกอฮอล์ มีผลต่อการเลือกซื้อ หรือทำให้ท่านเลือกซื้อผลิตภัณฑ์ที่สุรา/แอลกอฮอล์เพิ่มขึ้นหรือไม่</h5>
                   <div class="form-group">
                     <div class="row">
                       <div class="col-6 pr-1">
@@ -133,31 +140,39 @@ background: linear-gradient(7deg, rgba(228,228,228,1) 0%, rgba(247,247,247,1) 35
         </div>
       </div>
 
-      <div data-role="page" id="app_3" style="background: rgb(228,228,228); background: linear-gradient(7deg, rgba(228,228,228,1) 0%, rgba(247,247,247,1) 35%, rgba(255,255,255,1) 100%);">
+      <div data-role="page" id="app_3"  style="background: rgb(218, 218, 218);">
         <div class="bg-white">
-          <div class="container text-left mb-3 pt-5 pb-4">
-            <h3 class=" fw400  text-success">ส่วนที่ 4</h3>
-            <h5 class=""> ข้อคำถามและความคิดเห็นอื่น ๆ (3/6)</h5>
+          <div class="container text-left mb-3 pt-3 pb-4">
+            <div class="row">
+              <div class="col-6" onclick="sliderNextPart(3)" style="cursor: pointer;">
+                <i class="fas fa-chevron-left"></i> ส่วนที่ 3
+              </div>
+              <div class="col-6 text-right">
+                ภาพรวมการตอบ
+              </div>
+            </div>
+            <h3 class="mt-3 fw400  text-success">ส่วนที่ 4</h3>
+            <h5 class=""> ข้อคำถามและความคิดเห็นอื่น ๆ (3/5)</h5>
           </div>
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-12 pt-4">
+            <div class="col-12 pt-2">
               <div class="card">
                 <div class="card-body">
-                  <h5 class="mb-4">ระดับความง่ายต่อการใช้งาน/ตอบข้อคำถามของแบบสอบถามนี้</h5>
+                  <h5 class="mb-4">3. ระดับความง่ายต่อการใช้งาน/ตอบข้อคำถามของแบบสอบถามนี้</h5>
                   <div class="form-group">
                     <div class="row">
-                      <div class="col-3 pr-1">
+                      <div class="col-6 pl-1 pr-1 pb-1">
                         <button type="button" name="button" class="btn btn-outline-secondary btn-block" data-role="none" style="height: 100px;">ง่าย</button>
                       </div>
-                      <div class="col-3 pl-1 pr-1">
+                      <div class="col-6 pl-1 pr-1 pb-1">
                         <button type="button" name="button" class="btn btn-outline-secondary btn-block" data-role="none" style="height: 100px;">ปานกลาง</button>
                       </div>
-                      <div class="col-3 pl-1 pr-1">
+                      <div class="col-6 pl-1 pr-1 pb-1">
                         <button type="button" name="button" class="btn btn-outline-secondary btn-block" data-role="none" style="height: 100px;">ยาก</button>
                       </div>
-                      <div class="col-3 pl-1">
+                      <div class="col-6 pl-1 pr-1 pb-1">
                         <button type="button" name="button" class="btn btn-outline-secondary btn-block" data-role="none" style="height: 100px;">ยากที่สุด</button>
                       </div>
                     </div>
@@ -179,24 +194,27 @@ background: linear-gradient(7deg, rgba(228,228,228,1) 0%, rgba(247,247,247,1) 35
         </div>
       </div>
 
-      <div data-role="page" id="app_4" style="background: rgb(228,228,228); background: linear-gradient(7deg, rgba(228,228,228,1) 0%, rgba(247,247,247,1) 35%, rgba(255,255,255,1) 100%);">
+      <div data-role="page" id="app_4" style="background: rgb(218, 218, 218);">
         <div class="bg-white">
-          <div class="container text-left mb-3 pt-5 pb-4">
+          <div class="container text-left mb-3 pt-3 pb-4">
             <div class="row">
-              <div class="col-6">
+              <div class="col-6" onclick="sliderNextPart(3)" style="cursor: pointer;">
                 <i class="fas fa-chevron-left"></i> ส่วนที่ 3
               </div>
+              <div class="col-6 text-right">
+                ภาพรวมการตอบ
+              </div>
             </div>
-            <h3 class=" fw400  text-success">ส่วนที่ 4</h3>
-            <h5 class=""> ข้อคำถามและความคิดเห็นอื่น ๆ (4/6)</h5>
+            <h3 class="mt-3 fw400  text-success">ส่วนที่ 4</h3>
+            <h5 class=""> ข้อคำถามและความคิดเห็นอื่น ๆ (4/5)</h5>
           </div>
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-12 pt-4">
+            <div class="col-12 pt-2">
               <div class="card">
                 <div class="card-body">
-                  <h5 class=" mb-4">ความเหมาะสมของจำนวนข้อของแบบสอบถาม</h5>
+                  <h5 class=" mb-4">4. ความเหมาะสมของจำนวนข้อของแบบสอบถาม (มากจนเกินความจำเป็นหรือน้อยจนรู้สึกไม่มีประโยชน์ต่อการศึกษาหรือไม่)</h5>
                   <div class="form-group">
                     <div class="row">
                       <div class="col-4 pr-1">
@@ -227,21 +245,29 @@ background: linear-gradient(7deg, rgba(228,228,228,1) 0%, rgba(247,247,247,1) 35
         </div>
       </div>
 
-      <div data-role="page" id="app_5" style="background: rgb(228,228,228); background: linear-gradient(7deg, rgba(228,228,228,1) 0%, rgba(247,247,247,1) 35%, rgba(255,255,255,1) 100%);">
+      <div data-role="page" id="app_5" style="background: rgb(218, 218, 218);">
         <div class="bg-white">
-          <div class="container text-left mb-3 pt-5 pb-4">
-            <h3 class=" fw400  text-success">ส่วนที่ 4</h3>
-            <h5 class=""> ข้อคำถามและความคิดเห็นอื่น ๆ (5/6)</h5>
+          <div class="container text-left mb-3 pt-3 pb-4">
+            <div class="row">
+              <div class="col-6" onclick="sliderNextPart(3)" style="cursor: pointer;">
+                <i class="fas fa-chevron-left"></i> ส่วนที่ 3
+              </div>
+              <div class="col-6 text-right">
+                ภาพรวมการตอบ
+              </div>
+            </div>
+            <h3 class="mt-3 fw400  text-success">ส่วนที่ 4</h3>
+            <h5 class=""> ข้อคำถามและความคิดเห็นอื่น ๆ (5/5)</h5>
           </div>
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-12 pt-4">
+            <div class="col-12 pt-2">
               <div class="card">
                 <div class="card-body">
-                  <h5 class="text-center- mb-4">ท่านมีความคิดเห็นอย่างไรต่อสื่อ/โฆษณา ชองผลิตภัณฑ์อื่น ๆ ที่เกี่ยวข้องกับสุรา/แอลกอฮอล์ในปัจจุบัน (ถ้ามี)</h5>
+                  <h5 class="text-center- mb-4">5. ท่านมีความคิดเห็นอย่างไรต่อสื่อ/โฆษณา ชองผลิตภัณฑ์อื่น ๆ ที่เกี่ยวข้องกับสุรา/แอลกอฮอล์ในปัจจุบัน หรือความคิดเห็นอื่น ๆ (ถ้ามี)</h5>
                   <div class="form-group">
-                    <textarea name="" value="" data-role="none" class="form-control"></textarea>
+                    <textarea name="" value="" data-role="none" class="form-control" style="height: 300px;"></textarea>
                   </div>
                   <div class="form-group mt-4">
                     <div class="row">
@@ -249,7 +275,7 @@ background: linear-gradient(7deg, rgba(228,228,228,1) 0%, rgba(247,247,247,1) 35
                         <button type="button" name="button" class="btn btn-outline-primary" data-role="none" onclick="sliderPrev()">ก่อนหน้า</button>
                       </div>
                       <div class="col-6 text-right">
-                        <button type="button" name="button" class="btn btn-outline-primary" data-role="none" onclick="sliderNext()">ถัดไป</button>
+                        <button type="button" name="button" class="btn btn-outline-primary" data-role="none" onclick="sliderNext()">จบการทำแบบสอบถาม</button>
                       </div>
                     </div>
                   </div>
@@ -260,38 +286,6 @@ background: linear-gradient(7deg, rgba(228,228,228,1) 0%, rgba(247,247,247,1) 35
         </div>
       </div>
 
-      <div data-role="page" id="app_6" style="background: rgb(228,228,228); background: linear-gradient(7deg, rgba(228,228,228,1) 0%, rgba(247,247,247,1) 35%, rgba(255,255,255,1) 100%);">
-        <div class="bg-white">
-          <div class="container text-left mb-3 pt-5 pb-4">
-            <h3 class=" fw400  text-success">ส่วนที่ 4</h3>
-            <h5 class=""> ข้อคำถามและความคิดเห็นอื่น ๆ (6/6)</h5>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-12 pt-4">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="text-center- mb-4">ความคิดเห็นอื่น ๆ ต่อระบบการประเมินนี้ (ถ้ามี)</h5>
-                  <div class="form-group">
-                    <textarea name="" value="" data-role="none" class="form-control"></textarea>
-                  </div>
-                  <div class="form-group mt-4">
-                    <div class="row">
-                      <div class="col-6">
-                        <button type="button" name="button" class="btn btn-outline-primary" data-role="none" onclick="sliderPrev()">ก่อนหน้า</button>
-                      </div>
-                      <div class="col-6 text-right">
-                        <button type="button" name="button" class="btn btn-outline-primary" data-role="none" onclick="sliderNextPart(4)">ส่งผลการตอบ</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
       <input type="hidden" name="txtSession" id="txtSession" value="<?php echo $current_session; ?>">
 
